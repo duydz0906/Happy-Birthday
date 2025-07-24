@@ -5,12 +5,12 @@ $(window).on('load', function(){
 
 	// Add card and paper elements to the DOM
 	if ($('.congrats-card').length === 0) {
-		$('body').append(`
-			<div class="congrats-card" style="display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);z-index:9999;cursor:pointer;">
-				<img src="Images/bd1.jpg" alt="Surprise Card" style="width:140px;height:auto;border-radius:16px;box-shadow:0 4px 16px #0002;transition:box-shadow 0.2s;display:block;">
-			</div>
-			<div class="congrats-paper" style="display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:#fffbe8;padding:40px 32px 32px 32px;border-radius:12px;box-shadow:0 4px 32px #0002;z-index:10000;min-width:320px;min-height:180px;font-family: 'Indie Flower', cursive, sans-serif;font-size:1.5rem;line-height:2;white-space:pre-wrap;"></div>
-		`);
+	$('body').append(`
+		<div class="congrats-card" style="display:none;position:fixed;top:60%;left:50%;transform:translate(-50%,-50%);z-index:9999;cursor:pointer;">
+		<img src="Images/bd1.jpg" alt="Surprise Card" style="width:140px;height:auto;border-radius:16px;box-shadow:0 4px 16px #0002;transition:box-shadow 0.2s;display:block;">
+		</div>
+		<div class="congrats-paper" style="display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:#fffbe8;padding:40px 32px 32px 32px;border-radius:12px;box-shadow:0 4px 32px #0002;z-index:10000;min-width:320px;min-height:180px;font-family: 'Indie Flower', cursive, sans-serif;font-size:1.5rem;line-height:2;white-space:pre-wrap;"></div>
+	`);
 	}
 });
 
